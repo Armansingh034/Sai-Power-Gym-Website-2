@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Sai Power Gym"
+description = "A responsive local gym website for Sai Power Gym in Landran, with real facility photography, membership enquiries, reviews, location details, and direct call and WhatsApp contact."
+version = "1.0.0"
+id = "artifacts/sai-power-gym"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 26144
+
+[services.development]
+run = "pnpm --filter @workspace/sai-power-gym run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/sai-power-gym", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/sai-power-gym/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26144"
+BASE_PATH = "/"

@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "LvA9f645W4l4MWAFdwCe8"
+uri = "file://generated-artifacts/sai-power-gym.html"
+type = "html"
+title = "Sai Power Gym — single-file HTML"
+description = "A self-contained HTML version of the landing page, with its CSS, JavaScript, icon, and displayed gym photos embedded."
+logical_id = "34e39211-bba3-4225-8364-d6ca8b3e8834"
+content_hash = "sha256:cf1c4418e98fdf8e02226329892e8840034fa783dc0dcc33d939e4d56e401e14"
+size = 5089534
+mtime_ms = 1792740617609
+storage_uri = "gcs://replit-rams-assets-pike/rams/assets/repl:f267b46d-6160-479e-8616-4a56f932af27/34e39211-bba3-4225-8364-d6ca8b3e8834/f3054c94-79d2-44ba-9b1f-c44d79fceadc"
+storage_version_token = "1792740634159686"
+content_type = "text/html"
