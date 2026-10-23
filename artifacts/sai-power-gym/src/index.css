@@ -130,7 +130,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .gallery figure::after { content: ''; position: absolute; inset: 35% 0 0; background: linear-gradient(transparent, #101115d9); pointer-events: none; }
 .gallery figcaption { position: absolute; bottom: 16px; left: 17px; z-index: 1; display: flex; gap: 9px; align-items: center; font: 600 16px 'Barlow Condensed'; letter-spacing: .06em; text-transform: uppercase; }
 .gallery figcaption span { color: #c9ff34; font: 10px 'DM Sans'; }
-.gallery figure:nth-child(5) { grid-column: span 2; }
 .members-photo img { object-position: center 27%; }
 .equipment { display: grid; grid-template-columns: .9fr 1.1fr; gap: 80px; align-items: center; }
 .equipment-photo { height: 490px; position: relative; }
@@ -234,7 +233,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .tour-head p { margin-top: 17px; }
   .gallery { grid-template-columns: 1fr 1fr; grid-template-rows: 270px 190px 190px; gap: 8px; }
   .gallery figure:first-child { grid-column: span 2; grid-row: auto; }
-  .gallery figure:nth-child(5) { grid-column: span 2; }
   .gallery figcaption { bottom: 12px; left: 12px; font-size: 14px; }
   .equipment-photo { height: 390px; margin-left: 10px; }
   .plans-grid { grid-template-columns: 1fr; }

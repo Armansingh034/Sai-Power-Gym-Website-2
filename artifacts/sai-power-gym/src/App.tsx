@@ -12,7 +12,7 @@ const photos = [
   { src: '/gym-photos/img-9627.jpeg', alt: 'Gym floor with red strength machines, turf lane and mirror lighting', caption: 'Strength floor', number: '02' },
   { src: '/gym-photos/img-9632.jpeg', alt: 'Cable station, mirrors, treadmill and green turf beneath the gym lights', caption: 'Move your way', number: '03' },
   { src: '/gym-photos/img-9635.jpeg', alt: 'Functional turf lane between FZ Sports equipment and strength stations', caption: 'Turf lane', number: '04' },
-  { src: '/gym-photos/img-9628.jpeg', alt: 'A Sai Power Gym member in the mirror with magenta LED lighting behind him', caption: 'Made for real people', number: '05', member: true },
+  { src: '/gym-photos/img-9629.jpeg', alt: 'A Sai Power Gym member taking a mirror photo on the gym floor', caption: 'Made for real people', number: '05', member: true },
 ];
 const reviews = [
   { name: 'Aryan C.', quote: 'At a nice location, amazing ventilation, fully air conditioned, no rush, amazing working machinery' },
